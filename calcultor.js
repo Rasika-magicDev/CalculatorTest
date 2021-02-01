@@ -20,7 +20,7 @@ function calcultor(){
 	}else if(operation.value === "divide"){
 		result = firstNo.valueAsNumber / secondNo.valueAsNumber;
 	}else{
-		alert("something went wrong");
+		alert("something went wrong, please try again.");
 	}
 	
 	console.log("Result is " + result)
